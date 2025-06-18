@@ -1,7 +1,5 @@
 # ✅ Clean Code Principles: Concise and Practical
 
----
-
 ## 🧱 SOLID (OOP Design)
 
 | Principle                | Core Idea                                  | Explanation                                              |
@@ -11,8 +9,6 @@
 | L — Liskov Substitution   | Subtypes must replace base types          | Subclasses shouldn't break the logic of base class      |
 | I — Interface Segregation| Prefer small, focused interfaces           | Don't force a class to implement what it doesn't use    |
 | D — Dependency Inversion  | Depend on abstractions, not concretions   | Classes should rely on interfaces, not concrete classes |
-
----
 
 ## ⚙️ GRASP (Architectural Roles)
 
@@ -28,8 +24,6 @@
 | Pure Fabrication     | Artificial object for separation of logic | A service that is neither model nor controller |
 | Protected Variations | Shield from change                      | Abstract away unstable parts of the system      |
 
----
-
 ## 🔨 KISS, DRY, YAGNI, SoC, SRP (Universal Principles)
 
 | Principle                         | Core Idea                        | Meaning                                             |
@@ -39,8 +33,6 @@
 | YAGNI — You Aren’t Gonna Need It | Don’t write unused features      | Avoid premature optimization                        |
 | SoC — Separation of Concerns     | Separate responsibilities        | UI ≠ logic ≠ API, etc.                              |
 | SRP — Single Responsibility       | One clear responsibility         | One module = one concern                            |
-
----
 
 ## 🚫 Code Smells (What Instantly Reveals Bad Code)
 
@@ -54,8 +46,6 @@
 | Feature Envy         | One class accesses internals of another | Breaks encapsulation                                |
 | Primitive Obsession  | Raw strings/numbers over real types     | Create a Value Object                               |
 | Comments Overload    | Comments explain unclear code           | Make code self-explanatory                          |
-
----
 
 ## 📌 How to Use This?
 
